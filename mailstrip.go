@@ -49,7 +49,7 @@ var (
 	// e-mail client. e.g. gmail does that for lines exceeding 80 chars
 	multiLineReplyHeaderRegexps = []*regexp.Regexp{
 		// e.g. On Aug 22, 2011, at 7:37 PM, defunkt<reply@reply.github.com> wrote:
-		regexp.MustCompile("(?sm)^(On\\s(?:.+)wrote:)$"),
+		regexp.MustCompile("(?sm)(On\\s(?:.+)wrote:)"),
 		// e.g. 2013/11/13 John Smith <john@smith.org>
 		regexp.MustCompile("(?sm)^(\\d{4}/\\d{1,2}/\\d{1,2} .*<.+@.+>)$"),
 	}
