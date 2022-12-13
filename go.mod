@@ -1,3 +1,3 @@
-module github.com/kvannotten/mailstrip
+module github.com/jclyons52/mailstrip
 
 go 1.14
